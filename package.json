@@ -1,0 +1,30 @@
+{
+  "name": "moduletypescript",
+  "version": "1.0.0",
+  "description": "modulos en typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snkeduar/mypluralize.git"
+  },
+  "author": "Eduardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snkeduar/mypluralize/issues"
+  },
+  "homepage": "https://github.com/snkeduar/mypluralize#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "pluralize": "^7.0.0"
+  }
+}
